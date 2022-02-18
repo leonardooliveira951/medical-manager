@@ -1,0 +1,10 @@
+# dotenv environment variable files
+.env
+.env.example
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Sequelize configuration
+.sequelizerc
