@@ -1,12 +1,12 @@
 const express = require("express");
 const patientRouter = express.Router();
-const patientController =
-    require("../controllers/patientController");
+const patientController = require("../controllers/patientController");
+
 
 patientRouter.get("/searchPatientByPhysicianId/:physicianId",
     patientController.searchPatientByPhysicianId);
 
-patientRouter.post("/searchPatientByName",
+patientRouter.post("/searchPatientByName",    
     patientController.searchPatientByName);
 
 patientRouter.post("/newPatient",
